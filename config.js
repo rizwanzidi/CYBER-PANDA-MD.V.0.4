@@ -4,16 +4,16 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadAll = false;
+global.autoReadAll = true;
 global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
-global.groupevent = false;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //This is the new variable for controlling status seen.
-global.autoreadgc = false;
+global.autoTyping = true;                //auto tying by default off.
+global.autoRecord = true;                //auto recording by default off.
+global.groupevent = true;                //This is the new variable for controlling group event handling.
+global.statusseen = true;                 //This is the new variable for controlling status seen.
+global.autoreadgc = true;
 
 
 //
@@ -22,7 +22,7 @@ global.prefa = ["."];                                    //Default prefix here. 
 
 //
 global.Owner = ["923058420170", "923058420170"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["923058420170", "923058420170"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["923058420170", "923464953189"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.ownertag = ["923058420170"];
 global.OwnerName = "𝗥𝗶𝘇𝘄𝗮𝗻 𝘇𝗶𝗱𝗶𝗶 𝗵𝗮𝗰𝗸𝗲𝗿 ";
 global.BotName = "𝗥𝗶𝘇𝘄𝗮𝗻 𝘇𝗶𝗱𝗶𝗶 𝗵𝗮𝗰𝗸𝗲𝗿 ";
